@@ -1,9 +1,13 @@
-/* Set the width of the side navigation to 250px */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+window.onload = typeWriter;
+
+var i = 0;
+var txt = 'China vs USA'; 
+var speed = 80; 
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("heading").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
   }
-  
-  /* Set the width of the side navigation to 0 */
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+}
