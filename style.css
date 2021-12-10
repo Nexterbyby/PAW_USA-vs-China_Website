@@ -341,3 +341,14 @@ section {
   transition-delay: 0.75s;
 }
 
+section h1 {
+  margin-left: 7%;
+}
+
+section {
+  margin-left: 7%;
+}
+
+p {
+  margin-left: 7%;
+}
