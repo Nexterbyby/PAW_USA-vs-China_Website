@@ -24,7 +24,7 @@ html, body {
 }
 
 .img3 {
-    background: url(img/546b6568eab8ea5372db581d.jpg);
+    background: url(img/south_china_sea.jpg);
     min-height: 100%;
 
 }
@@ -329,5 +329,17 @@ section {
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.75s;
+}
+
+section h1 {
+  margin-left: 7%;
+}
+
+p {
+  margin-left: 7%;
+}
+
+.link {
+  color: #4f92df;
 }
 
