@@ -13,23 +13,27 @@ html, body {
 
 
 .img1 {
-    background: url(img/photo.jpg);
+    background: url(img/Taiwan-article-scaled.jpg);
     min-height: 100%;
     z-index: 0;
 }
 
 .img2 {
-    background: url(img/spratly-paracel-scarborough-v3.jpg);
+    background: url(img/taiwan\ island.jpg);
     min-height: 70%;
 }
 
 .img3 {
-    background: url(img/south_china_sea.jpg);
-    min-height: 100%;
+    background: url(img/history.jpg);
+    min-height: 70%;
+}
+.img4 {
+  background: url(img/powerplant.jpg);
+  min-height: 70%;
 
 }
 
-.img1, .img2, .img3 {
+.img1, .img2, .img3, .img4 {
     position: relative;
     opacity: .85;
     background-position: center;
@@ -42,29 +46,19 @@ section {
     padding: 50px 80px;
 }
 
-#heading1, #heading2, #heading3{
-  position: absolute;
-  font-size: 650%;
-  text-shadow: 0 0 15px #000;
-  width: 93%;
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  left:7%;
-}
-
-#heading1 {
-top: 25%;
-}
-#heading2 {
-top: 50%;
-}
-#heading3 {
-top: 75%;
+#heading {
+    position: absolute;
+    top: 50%;
+    font-size: 650%;
+    text-shadow: 0 0 15px #000;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
 }
 
 @media (max-width: 680px) {
     #heading {
-        font-size: 400%;
+        font-size: 250%;
     }
     h1 {
         font-size: 95%;
