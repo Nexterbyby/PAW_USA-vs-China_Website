@@ -52,13 +52,16 @@ section {
 }
 
 #heading {
-    position: absolute;
-    top: 50%;
-    font-size: 650%;
-    text-shadow: 0 0 15px #000;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 8px;
+  position: absolute;
+  font-size: 650%;
+  text-shadow: 0 0 15px #000;
+  width: 70%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding-left: 20%;
+  padding-right: 10%;
+  line-height: 80px;
+  top: 50%;
 }
 
 @media (max-width: 680px) {

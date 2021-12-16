@@ -42,25 +42,19 @@ section {
     padding: 50px 80px;
 }
 
-#heading1, #heading2, #heading3{
+#heading {
   position: absolute;
   font-size: 650%;
   text-shadow: 0 0 15px #000;
-  width: 93%;
+  width: 70%;
   text-transform: uppercase;
   letter-spacing: 8px;
-  left:7%;
+  padding-left: 20%;
+  padding-right: 10%;
+  line-height: 80px;
+  top: 50%;
 }
 
-#heading1 {
-top: 25%;
-}
-#heading2 {
-top: 50%;
-}
-#heading3 {
-top: 75%;
-}
 
 @media (max-width: 680px) {
     #heading {
