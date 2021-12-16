@@ -32,8 +32,13 @@ html, body {
   min-height: 70%;
 
 }
+.img5 {
+  background: url(img/Kaohsiung.jpg);
+  min-height: 70%;
 
-.img1, .img2, .img3, .img4 {
+}
+
+.img1, .img2, .img3, .img4, .img5 {
     position: relative;
     opacity: .85;
     background-position: center;
