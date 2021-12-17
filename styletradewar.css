@@ -65,7 +65,7 @@ section a:visited {
 
 #heading {
     position: absolute;
-    font-size: 650%;
+    font-size:600%;
     text-shadow: 0 0 15px #000;
     width: 70%;
     text-transform: uppercase;
@@ -76,9 +76,9 @@ section a:visited {
     top: 50%;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1100px) {
     #heading {
-        font-size: 250%;
+        font-size: 200%;
     }
     h1 {
         font-size: 95%;
