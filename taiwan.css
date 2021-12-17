@@ -168,6 +168,10 @@ section {
   background: #000000; 
 }
 
+.nav__cont::-webkit-scrollbar {
+  display: none;
+}
+
 .nav__cont {
   position: fixed;
   width: 60px;
@@ -179,6 +183,9 @@ section {
   transition: width 0.3s ease;
   cursor: pointer;
   box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .nav__cont:hover {
   width: 200px;
