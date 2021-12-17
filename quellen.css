@@ -354,7 +354,7 @@ section h1 {
 }
 
 h3 {
-  margin-left: 7%;
+  margin-left: 5%;
 }
 
 section {
@@ -363,9 +363,34 @@ section {
 
 p {
   margin-left: 7%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  hyphens: auto;
 }
 
 
-a {
+ol li a {
   color: rgb(50, 243, 250);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  hyphens: auto;
 }
+
+.abstand {
+  margin-bottom: 10%;
+}
+
+h5 {
+  font-size:22px;
+  margin-left: 30px;
+}
+
+
