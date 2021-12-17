@@ -1,7 +1,7 @@
 window.onload = typeWriter;
 
 var i = 0;
-var txt = "Quellenverzeichnis";
+var txt = "Quellen";
 var speed = 80; 
 
 function typeWriter() {
